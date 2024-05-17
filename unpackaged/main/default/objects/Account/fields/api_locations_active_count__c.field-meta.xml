@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>api_locations_active_count__c</fullName>
+    <externalId>false</externalId>
+    <label>Active API Locations</label>
+    <summarizedField>Opportunity.license_count__c</summarizedField>
+    <summaryFilterItems>
+        <field>Opportunity.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>API, API Access</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Opportunity.StageName</field>
+        <operation>equals</operation>
+        <value>Closed Won, Install Complete</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Opportunity.billing_status__c</field>
+        <operation>notEqual</operation>
+        <value>Canceled</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

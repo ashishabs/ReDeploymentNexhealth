@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Second_Appointment_Booked_Date__c</fullName>
+    <description>This field is populated when Pendo_Appointments_Booked_Last_30_Days__c moves to 2 for the first time. It is used in onboarding metrics to see time to first booking.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field is populated when Pendo_Appointments_Booked_Last_30_Days__c moves to 2 for the first time. It is used in onboarding metrics to see time to first booking.</inlineHelpText>
+    <label>Second Appointment Booked Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Practice_Specialty__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>What is the primary specialty of the practice?</inlineHelpText>
+    <label>Primary Practice Specialty</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>specialties</valueSetName>
+    </valueSet>
+</CustomField>

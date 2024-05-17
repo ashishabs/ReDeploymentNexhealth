@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_Referenced__c</fullName>
+    <businessOwnerUser>kristen.lee@nexhealth.com.ccdev</businessOwnerUser>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates last time the account was used as a reference</inlineHelpText>
+    <label>Date Referenced</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

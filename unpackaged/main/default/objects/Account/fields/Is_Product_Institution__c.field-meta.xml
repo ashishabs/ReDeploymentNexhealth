@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Product_Institution__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(nexhealth_institution_id__c != null, true, false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is Product Institution</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Relationships__c</fullName>
+    <description>This field is a multiselect picklist of different relationships with NexHealth including all of our partnership types and customer types. This field can be used to understand Accounts with multiple relationships with NexHealth such as Developers who are also Customers, or Partners who are both Affiliate and Reseller. Values in this picklist go on to populate unique boolean fields for each relationship type for easier reporting. 
+
+If one of these relationships is churned, it will be removed from this multiselect and the related unique bool will be marked FALSE.</description>
+    <externalId>false</externalId>
+    <label>Active Relationships</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Reseller Partenr</fullName>
+                <default>false</default>
+                <label>Reseller Partner</label>
+            </value>
+            <value>
+                <fullName>Affiliate Partner</fullName>
+                <default>false</default>
+                <label>Affiliate Partner</label>
+            </value>
+            <value>
+                <fullName>Developer Partner</fullName>
+                <default>false</default>
+                <label>Developer Partner</label>
+            </value>
+            <value>
+                <fullName>Partner</fullName>
+                <default>false</default>
+                <label>Partner</label>
+            </value>
+            <value>
+                <fullName>Reseller Customer</fullName>
+                <default>false</default>
+                <label>Reseller Customer</label>
+            </value>
+            <value>
+                <fullName>Affiliate Customer</fullName>
+                <default>false</default>
+                <label>Affiliate Customer</label>
+            </value>
+            <value>
+                <fullName>Developer Customer</fullName>
+                <default>false</default>
+                <label>Developer Customer</label>
+            </value>
+            <value>
+                <fullName>Direct Customer</fullName>
+                <default>false</default>
+                <label>Direct Customer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Became_a_Customer_Date__c</fullName>
+    <description>Describes the close date of the first New Business opportunity on this account.</description>
+    <externalId>false</externalId>
+    <label>Became SaaS Customer At</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nexhealth_institution_id__c</fullName>
+    <description>The Institution Id of the account as per NexHealth&#39;s product.</description>
+    <externalId>true</externalId>
+    <inlineHelpText>The Institution Id of the account as per NexHealth&#39;s product.</inlineHelpText>
+    <label>NexHealth Institution ID</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

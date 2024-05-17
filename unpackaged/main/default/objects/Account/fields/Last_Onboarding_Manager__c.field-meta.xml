@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Onboarding_Manager__c</fullName>
+    <description>Most recent Onboarding Manager</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Most recent Onboarding Manager</inlineHelpText>
+    <label>Last Onboarding Manager</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

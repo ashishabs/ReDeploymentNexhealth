@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Activity_Count_Email__c</fullName>
+    <description>Number of email Sales Activities related to the Account, its Contacts, or its Opps, that meet required criteria. Filled in by a flow.</description>
+    <externalId>false</externalId>
+    <label>Sales Activity Count - Email</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

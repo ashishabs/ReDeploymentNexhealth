@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PMS_Integration_Is_Supported__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( practice_management_software__c ,
+&quot;athenaClinicals by athenahealth&quot;,1,
+&quot;CS OrthoTrac by Carestream Dental&quot;,1,
+&quot;Modernizing Medicine&quot;,1,
+&quot;Cloud9 Ortho&quot;,1,
+&quot;Curve Dental&quot;,1,
+&quot;Denticon by Planet DDS&quot;, 1,
+&quot;Dentrix Ascend by Henry Schein&quot;, 1,
+&quot;Dentrix by Henry Schein&quot;, 1,
+&quot;Dentrix Enterprise by Henry Schein&quot;, 1,
+&quot;Dolphin by Patterson Dental&quot;, 1,
+&quot;drchrono EHR&quot;, 1,
+&quot;Eaglesoft by Patterson Dental&quot;, 1,
+&quot;eClinicalWorks&quot;, 1,
+&quot;MDLand iClinic&quot;, 1,
+&quot;Medical Manager&quot;, 1,
+&quot;Open Dental&quot;, 1,
+&quot;PracticeWorks by Carestream Dental&quot;, 1,
+&quot;SoftDent by Carestream Dental&quot;, 1,
+&quot;Orthotrac&quot;, 1,
+&quot;Practice-Web&quot;, 1,
+0)=1</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Do we integrate with the practice&#39;s PMS?</inlineHelpText>
+    <label>PMS Integration Is Supported</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

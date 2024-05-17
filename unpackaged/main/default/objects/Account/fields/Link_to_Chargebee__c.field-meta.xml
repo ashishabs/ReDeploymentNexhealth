@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Link_to_Chargebee__c</fullName>
+    <description>Dynamic URL that links to Chargebee Customer Profile</description>
+    <externalId>false</externalId>
+    <formula>IF(
+ISBLANK( Chargebee_Customer_ID__c ),
+&quot;&quot;,
+&quot;https://nexhealth.chargebee.com/d/customers/&quot; +  Chargebee_Customer_ID__c 
+)</formula>
+    <inlineHelpText>Grabs &quot;Chargebee ID&quot; on the Account level</inlineHelpText>
+    <label>Link to Chargebee</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

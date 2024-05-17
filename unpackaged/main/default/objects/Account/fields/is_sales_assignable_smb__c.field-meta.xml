@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>is_sales_assignable_smb__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND(
+    ISBLANK(Parent.Id),
+    Record_Type__c = &quot;Prospect&quot;,
+    Account_Transfer_Cooldown_Date__c &lt;= TODAY(),
+    Owner.User_Caseified_ID__c = &quot;0056g000004oHyPAAU&quot;,
+    NOT(ISPICKVAL(status__c, &quot;Disqualified&quot;)),
+    PMS_Integration_Is_Supported__c = TRUE,
+    ISPICKVAL(organization_type__c, &quot;Dental Practice&quot;)
+)</formula>
+    <label>Is Sales Assignable - SMB</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

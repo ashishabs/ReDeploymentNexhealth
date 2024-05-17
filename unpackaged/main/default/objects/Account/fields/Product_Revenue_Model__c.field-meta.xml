@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Revenue_Model__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Revenue Model</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Subscription - Per Provider</fullName>
+                <default>false</default>
+                <label>Subscription - Per Provider</label>
+            </value>
+            <value>
+                <fullName>Subscription - Per Location</fullName>
+                <default>false</default>
+                <label>Subscription - Per Location</label>
+            </value>
+            <value>
+                <fullName>Subscription - Flat Fee</fullName>
+                <default>false</default>
+                <label>Subscription - Flat Fee</label>
+            </value>
+            <value>
+                <fullName>One-Time Purchase</fullName>
+                <default>false</default>
+                <label>One-Time Purchase</label>
+            </value>
+            <value>
+                <fullName>Free - Advertised</fullName>
+                <default>false</default>
+                <label>Free - Advertised</label>
+            </value>
+            <value>
+                <fullName>Free - Transaction Fee</fullName>
+                <default>false</default>
+                <label>Free - Transaction Fee</label>
+            </value>
+            <value>
+                <fullName>Free - Referral/Shared Revenue</fullName>
+                <default>false</default>
+                <label>Free - Referral/Shared Revenue</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

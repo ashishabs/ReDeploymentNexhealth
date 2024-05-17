@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zip_Code_Analytics__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&#39;https://app.sigmacomputing.com/nexhealth/workbook/Local-NexHealth-Practice-Data-vdYGoD3FsYIbkTKaT87UZ?Zip=&#39; &amp; BillingPostalCode, &quot;Zip Code Analytics&quot;, &quot;_self&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Zip Code Analytics</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

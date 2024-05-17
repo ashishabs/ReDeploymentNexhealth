@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Link_to_Tools__c</fullName>
+    <description>Dynamic URL that links to Tools Institution</description>
+    <externalId>false</externalId>
+    <formula>IF(
+ISBLANK( nexhealth_institution_id__c ),
+&quot;&quot;,
+&quot;https://nexhealth.info/tools/institutions/&quot; + nexhealth_institution_id__c
+)</formula>
+    <inlineHelpText>Uses NexHealth Institution ID to create a hyperlink to Tools</inlineHelpText>
+    <label>Link to Tools</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

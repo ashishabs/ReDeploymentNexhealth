@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>of_Open_Support_Cases_in_Hierarchy__c</fullName>
+    <description>Used as roll up field for Account Hierarchy package to roll up Number of Support Cases - last two weeks in hierarchy.</description>
+    <externalId>false</externalId>
+    <label># of Open Support Cases in Hierarchy</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

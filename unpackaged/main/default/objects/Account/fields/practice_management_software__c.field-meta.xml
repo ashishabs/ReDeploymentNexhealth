@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>practice_management_software__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>What&#39;s used to manage the practice?</inlineHelpText>
+    <label>Practice Management System</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Practice_Management_Systems</valueSetName>
+    </valueSet>
+</CustomField>

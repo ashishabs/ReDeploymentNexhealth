@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Impartner_CRM_Id__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>This field stores the unique ID for this record in Impartner, our partner portal software, which stores it&#39;s own table of accounts. This field is set as unique in SFDC since we need to maintain a 1:1 relationship of Accounts in SFDC to their related records in Impartner.</description>
+    <externalId>true</externalId>
+    <label>Impartner CRM ID</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

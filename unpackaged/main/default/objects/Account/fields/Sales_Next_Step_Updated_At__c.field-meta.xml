@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Next_Step_Updated_At__c</fullName>
+    <description>Last time the Next Step Date or Next Step Notes fields were updated</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Last time the Next Step Date or Next Step Notes fields were updated</inlineHelpText>
+    <label>Next Step Updated At</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>
