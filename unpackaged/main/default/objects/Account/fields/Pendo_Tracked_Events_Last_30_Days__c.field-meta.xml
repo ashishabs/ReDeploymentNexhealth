@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pendo_Tracked_Events_Last_30_Days__c</fullName>
+    <description>This data is pushed from the SFDC Account Push report and reflects the number of tracked events recorded on this account in the last 30 days. It is an overall representation of how many actions the account is taking inside of the product.</description>
+    <externalId>false</externalId>
+    <label>Tracked Events Last 30 Days</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

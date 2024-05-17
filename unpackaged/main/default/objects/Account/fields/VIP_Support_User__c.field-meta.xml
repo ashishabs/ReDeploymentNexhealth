@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VIP_Support_User__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Used by CS for Enterprise Support Routing.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Assigned Support Rep</inlineHelpText>
+    <label>CS - Smart Routing</label>
+    <lookupFilter>
+        <active>false</active>
+        <filterItems>
+            <field>User.ProfileId</field>
+            <operation>equals</operation>
+            <value>00e6g000000qecn</value>
+        </filterItems>
+        <filterItems>
+            <field>User.IsActive</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>User</referenceTo>
+    <relationshipName>VIPSupportUser</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

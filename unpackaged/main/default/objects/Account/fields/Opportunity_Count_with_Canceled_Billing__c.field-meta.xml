@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Count_with_Canceled_Billing__c</fullName>
+    <externalId>false</externalId>
+    <label>Opportunities with Canceled Billing</label>
+    <summaryFilterItems>
+        <field>Opportunity.billing_status__c</field>
+        <operation>equals</operation>
+        <value>Canceled</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

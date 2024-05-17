@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Billing_Street_Line_2__c</fullName>
+    <description>Stores the Billing Street Line 2 in combination with Billing Street to store a full address. This field is synced from the product which needs 2 discrete fields for street information.</description>
+    <externalId>false</externalId>
+    <label>Billing Street Line 2</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

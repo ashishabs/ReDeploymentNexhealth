@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Synced_from_Impartner__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field is set to TRUE if this Account was created from Impartner. This is used for deduplication and manual review purposes.</description>
+    <externalId>false</externalId>
+    <label>Synced from Impartner</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mch_parent_name__c</fullName>
+    <description>Name of the parent company according to MCH data</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Name of the parent company</inlineHelpText>
+    <label>MCH Parent Name</label>
+    <length>64</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

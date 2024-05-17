@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Average_CSAT_Score__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This field will have data in it if the Contacts related to this Account have received and filled out CSAT Surveys.</inlineHelpText>
+    <label>Average CSAT Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>1</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

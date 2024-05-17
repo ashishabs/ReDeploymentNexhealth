@@ -1,0 +1,24 @@
+<template>  
+<lightning-card title="Account Rollups" icon-name="standard:account">  
+    
+    <table class="slds-table slds-table--bordered slds-table--col-bordered" style="border-collapse:collapse;">
+        <thead> 
+            <tr>
+                <th>Hiearchy Level</th>
+                <th># At Risk Locations in Hierarchy</th>                   
+                <th>Number of open support cases in hierarchy</th>
+                 <th>Number of Practice Location Accounts</th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <td>{CurrentHiearchyLevel}</td>
+                    <td>{RiskLocationCount}</td>                                                
+                    <td>{OpenSupportCasesCount}</td>
+                    <td>{PracticeLocationCount}</td>
+                </tr>
+        </tbody>
+    </table>
+
+</lightning-card>
+</template>

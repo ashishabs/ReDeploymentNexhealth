@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Developer_Product_Description__c</fullName>
+    <description>Place to put notes on what the product does / solves</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Place to put notes on what the product does / solves</inlineHelpText>
+    <label>Developer Product Description</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

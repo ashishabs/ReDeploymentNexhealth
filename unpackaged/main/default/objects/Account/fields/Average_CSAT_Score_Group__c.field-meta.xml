@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Average_CSAT_Score_Group__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This field will only have data in it if the Account has children Accounts connected to it. If that&#39;s the case, this field will show the average CSAT score from all Contacts against all the children Accounts.</inlineHelpText>
+    <label>Average CSAT Score (Group)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>1</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

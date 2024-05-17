@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SaaS_Onboarding_Completed_At__c</fullName>
+    <description>Stamps when the first related TaskRay Project is marked Closed - Complete</description>
+    <externalId>false</externalId>
+    <label>SaaS Onboarding Completed At</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>
