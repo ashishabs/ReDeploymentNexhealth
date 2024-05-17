@@ -1,0 +1,17 @@
+<template>
+    <lightning-card>
+    <div style="height: 100px;">
+        <lightning-datatable
+                key-field="id"
+                data={records}
+                columns={columns}
+                hide-checkbox-column="true">
+        </lightning-datatable>
+    </div>
+
+    <div style="margin-top: 20px; text-align: center;">
+        <lightning-button label="Reassign to Technical Process Team" variant="brand" onclick={handleReassignToTechnicalProcess}></lightning-button>
+        <lightning-button label="Reassign to the Account Manager" variant="brand" onclick={handleReassignToAccountManager} class="slds-m-left_x-small"></lightning-button>
+    </div>
+</lightning-card>
+</template>
